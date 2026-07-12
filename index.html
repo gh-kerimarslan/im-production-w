@@ -19,20 +19,27 @@
 <link href="assets/IMP_LOGO_WHITE-Empty.png" rel="apple-touch-icon">
 
 <!-- Taşan Başlık İçin Responsive (Uyumluluk) Çözümü -->
-<style>
-    .large-title {
-        font-size: clamp(2rem, 11vw, 10rem) !important; /* Ekran küçüldükçe yazı küçülür */
-        line-height: 1.1 !important;
-        white-space: normal !important;
-        text-align: center !important;
-        width: 100% !important;
-        padding: 0 15px; /* Mobilde kenarlara yapışmasını engeller */
-    }
-    .gsap_split_word {
-        display: inline-block !important;
-        margin: 0 1vw; /* Kelimeler IM ve PRODUCTION arasına esnek boşluk katar */
-    }
-</style>
+    <style>
+        .large-title {
+            white-space: nowrap !important; /* Yazının alt satıra inmesini kesinlikle engeller */
+            font-size: 9.5vw !important; /* Yazı boyutunu tam ekran genişliğine göre esnetir */
+            line-height: 1 !important;
+            text-align: center !important;
+            width: 100% !important;
+            padding: 0 !important; 
+        }
+        .gsap_split_word {
+            display: inline-block !important;
+            margin: 0 1.5vw !important; /* IM ve PRODUCTION arasındaki boşluk oranı */
+        }
+        
+        /* Mobil ekranlarda sağdan/soldan boşluk kalmaması için ince ayar */
+        @media (max-width: 767px) {
+            .large-title {
+                font-size: 11.5vw !important; 
+            }
+        }
+    </style>
 </head>
 <body class="body">
     <div class="navbar-logo-left">
