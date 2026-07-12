@@ -399,7 +399,7 @@
     <div class="w-slide" aria-label="1 of 3" role="group">
         <p class="testimonial-text">“IM Production sadece bir prodüksiyon ekibi değil; mekandaki enerjiyi okuyan ve o anı kusursuzca ölümsüzleştiren bir partner. Ortaya çıkan işler her zaman vizyonumuzun ve beklentilerimizin çok ötesinde.”</p>
         <div style="text-align: center; margin-top: 30px;">
-            <strong style="color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase;">Cemre [Soyadı]</strong><br>
+            <strong style="color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase;"></strong><br>
             <span style="color: #888888; font-size: 0.9rem; margin-top: 5px; display: inline-block;">Yönetici, Girişimcilik Vakfı</span>
         </div>
     </div>
@@ -408,8 +408,8 @@
     <div class="w-slide" aria-label="2 of 3" role="group" aria-hidden="true">
         <p class="testimonial-text" aria-hidden="true">“Etkinliklerimizin ruhunu ve dinamiğini dijital dünyaya aktarma konusunda tam bir profesyonel. Kalabalığın enerjisini kadraja yansıtma biçimleri gerçekten eşsiz.”</p>
         <div style="text-align: center; margin-top: 30px;" aria-hidden="true">
-            <strong style="color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase;" aria-hidden="true">[Yöneticinin Adı]</strong><br>
-            <span style="color: #888888; font-size: 0.9rem; margin-top: 5px; display: inline-block;" aria-hidden="true">Field Marketing Director, Red Bull</span>
+            <strong style="color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase;" aria-hidden="true">Anıl Demirezen</strong><br>
+            <span style="color: #888888; font-size: 0.9rem; margin-top: 5px; display: inline-block;" aria-hidden="true">Head of On Premise Marketing at Red Bull</span>
         </div>
     </div>
     
@@ -417,8 +417,8 @@
     <div class="w-slide" aria-label="3 of 3" role="group" aria-hidden="true">
         <p class="testimonial-text" aria-hidden="true">“Detaylara verdikleri önem ve ışığı kullanım biçimleri, markamızın premium hissiyatını doğrudan yansıtıyor. 15 yıllık tecrübenin getirdiği o 'keskin bakış açısını' her karede hissediyorsunuz.”</p>
         <div style="text-align: center; margin-top: 30px;" aria-hidden="true">
-            <strong style="color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase;" aria-hidden="true">[Yöneticinin Adı]</strong><br>
-            <span style="color: #888888; font-size: 0.9rem; margin-top: 5px; display: inline-block;" aria-hidden="true">[Unvan], [Marka Adı]</span>
+            <strong style="color: #ffffff; font-size: 1.1rem; letter-spacing: 1px; text-transform: uppercase;" aria-hidden="true">Dilara Altınkepçe Arslan</strong><br>
+            <span style="color: #888888; font-size: 0.9rem; margin-top: 5px; display: inline-block;" aria-hidden="true">Founder&Artist, Nelumbo Studios</span>
         </div>
     </div>
 
