@@ -25,24 +25,28 @@
 
     <!-- Taşan Başlık İçin Responsive (Uyumluluk) Çözümü ve Animasyon Temizliği -->
     <style>
-    <!-- Akıllı Sabit Header (Sticky & Scroll Effect) -->
+  <!-- Sabit ve Her Zaman Beyaz Header -->
     <style>
-        /* Menü yapısını sayfadan koparmadan tepeye tutturur */
+        /* Menüyü tepeye sabitler ve arka planını sürekli beyaz tutar */
         .navbar, .w-nav { 
             position: -webkit-sticky !important; /* Safari uyumluluğu */
             position: sticky !important;
             top: 0 !important;
             z-index: 9999 !important;
-            transition: background-color 0.3s ease, backdrop-filter 0.3s ease !important;
+            background-color: #ffffff !important; /* Sürekli beyaz arka plan */
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05) !important; /* Altına çok hafif, şık bir gölge */
         }
-        
-        /* Sayfa aşağı kaydırıldığında eklenecek karanlık cam efekti */
-        .nav-scrolled {
-            background-color: rgba(18, 18, 18, 0.90) !important;
-            backdrop-filter: blur(12px) !important;
-            -webkit-backdrop-filter: blur(12px) !important;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Şık bir alt çizgi ayrımı */
+
+        /* Beyaz arkaplanda menü linklerinin (yazıların) okunabilmesi için koyu gri/siyah yapıyoruz */
+        .navbar a, .w-nav a, .nav-link {
+            color: #121212 !important;
         }
+
+        /* Beyaz (IMP_LOGO_WHITE) logonun beyaz arkaplanda kaybolmaması için rengini otomatik olarak siyaha çevirir */
+        .navbar img, .w-nav img {
+            filter: invert(1) !important;
+        }
+    </style>
     </style>
 
     <script>
