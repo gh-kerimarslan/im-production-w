@@ -23,9 +23,8 @@
     <link href="assets/IMP_LOGO_WHITE-Empty.png" rel="shortcut icon" type="image/png">
     <link href="assets/IMP_LOGO_WHITE-Empty.png" rel="apple-touch-icon">
 
-    <!-- Taşan Başlık İçin Responsive (Uyumluluk) Çözümü ve Animasyon Temizliği -->
+<!-- Taşan Başlık İçin Responsive (Uyumluluk) Çözümü ve Animasyon Temizliği -->
     <style>
-<style>
         /* Menüyü orijinal renkleriyle sayfanın en tepesinde sabit tutar */
         .navbar, .w-nav { 
             position: -webkit-sticky !important;
@@ -34,24 +33,6 @@
             z-index: 9999 !important;
             background-color: #121212 !important; /* Sitenin kendi orijinal koyu arka plan rengi */
         }
-    </style>
-    </style>
-
-    <script>
-        // Kullanıcı 50 piksel aşağı kaydırdığında efekti devreye sokar
-        document.addEventListener("DOMContentLoaded", function() {
-            window.addEventListener('scroll', function() {
-                var nav = document.querySelector('.navbar') || document.querySelector('.w-nav');
-                if (nav) {
-                    if (window.scrollY > 50) {
-                        nav.classList.add('nav-scrolled');
-                    } else {
-                        nav.classList.remove('nav-scrolled');
-                    }
-                }
-            });
-        });
-    </script>
     </style>
 </head>
 <body class="body">
